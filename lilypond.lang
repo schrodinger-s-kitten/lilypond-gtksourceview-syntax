@@ -994,7 +994,7 @@
 
 		<context id="sch-exp">
 				<!--here so parentheses are not highlighted if they're part of scheme constructs or whatever-->
-			<start>(`|#|'|\$)\(</start>
+			<start>(`|#'?|\$)\(</start>
 			<end>\)</end>
 			<include>
 				<context ref="all-caps-stuff"/>
