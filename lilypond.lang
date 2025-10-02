@@ -551,8 +551,8 @@
 		</context>
 
 		<context id="con-property" class="no-spell-check" style-ref="context">
-      <prefix>(?&lt;![\w\d_-])</prefix>
-      <suffix>(?![\w\d_-])</suffix>
+			<prefix>(?&lt;![\w\d_-])</prefix>
+			<suffix>(?![\w\d_-])</suffix>
 				<!--context properties, both tunable and internal-->
 			<keyword>accidentalGrouping</keyword>
 			<keyword>additional(BassStrings|PitchPrefix)</keyword>
