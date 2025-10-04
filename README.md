@@ -7,12 +7,12 @@ Examples of it in action in the Pluma text editor (palette: Mimiga, also made by
 
 Header of a regular if big file:
 
-<img width="1023" height="658" alt="Screenshot from 2025-10-02 13-37-34" src="https://github.com/user-attachments/assets/e9f4b158-e731-4bc3-8487-076cace88a0a" />
+<img width="1035" height="635" alt="Screenshot from 2025-10-04 12-50-52" src="https://github.com/user-attachments/assets/f6f6f94e-af03-44b3-9071-9c55cd3c3fd8" />
 
 
 Markup with score inside:
 
-<img width="645" height="553" alt="Screenshot from 2025-10-02 13-36-30" src="https://github.com/user-attachments/assets/d0cf0ffc-cf66-4270-95bd-1dcbaefddba3" />
+<img width="679" height="552" alt="Screenshot from 2025-10-04 12-47-08" src="https://github.com/user-attachments/assets/6f170e15-6659-4e7b-88b4-f82915a00215" />
 
 
 Chord mode, figured bass mode, and some Gregorian notation:
