@@ -848,9 +848,9 @@
 		<context id="grob-property" class="no-spell-check" style-ref="property">
 				<!--layout object user and internal backend properties
 				they currently only highlight when after a dot (.damping), a tweak command
-				(\tweak color), or an offset command (\offset height 2 Hairpin)-->
+				(\tweak color), or an offset or alterBroken command (\offset height 2 Hairpin)-->
 			<match extended="true">
-				((?&lt;=\.)|((?&lt;=\\tweak\s)|(?&lt;=\\offset\s))\s*)(
+				((?&lt;=\.)|((?&lt;=\\tweak\s)|(?&lt;=\\offset\s)|(?&lt;=\\alterBroken\s))\s*)(
 				accidental-grob(s)? | add-(cauda|join|stem(-support)?) | adjacent-(pure-heights|spanners) |          ##a
 				allow-(loose-spacing|span-bar) | alteration(-(glyph-name-)?alist)? | annotation(-(balloon|line))? |  ##
 				arrow-(length|width) | auctum | axis-group-parent-(X|Y) | automatically-numbered |                   ##
