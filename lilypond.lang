@@ -53,7 +53,7 @@
 		BarNumber.font-family: roman sans
 		BendSpanner.font-encoding: fetaBraces fetaMusic fetaText
 		    | |    .font-shape: caps italic upright
-			*for style ctrl+f stencil/callback (or see the stencils NotRef annex?)
+			*for style ctrl+f style in NotRef big html
 		CombineTextScript.font-series: bold bold-narrow medium (see atkinson for more?)
 		MetronomeMark.flag-style: 'default flat-flag mensural 'modern-straight-flag 'old-straight-flag
 		NonMusicalPaperColumn.line/page-break-permission: allow force
