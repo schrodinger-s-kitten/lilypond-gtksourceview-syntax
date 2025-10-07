@@ -3,7 +3,7 @@ A syntax highlight file for LilyPond 2.24.4 (stable release) for use with GtkSou
 
 It mostly follows the colours used in the documentation at lilypond.org, with a few extra keywords and some other things highlighted differently.
 
-Examples of it in action in the Pluma text editor (palette: Mimiga, also made by me (TODO: add link to mimiga palette repository)):
+Examples of it in action in the Pluma text editor (palette: Mimiga, also made by me, available at https://github.com/schrodinger-s-kitten/mimiga-gedit-theme):
 
 Header of a regular if big file:
 
