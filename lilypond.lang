@@ -15,7 +15,7 @@
 <language id="lilypond" name="Lilypond" version="2.0" _section="Markup">
 
 <metadata>
-	<property name="globs">*.ly</property>
+	<property name="globs">*.ly;*.ily</property>
 	<property name="line-comment-start">%</property>
 	<property name="block-comment-start">%{</property>
 	<property name="block-comment-end">%}</property>
