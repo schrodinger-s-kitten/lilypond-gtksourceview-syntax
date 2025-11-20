@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-  2025-10-27 ver
+  2025-11-20 ver
   made by Kit
   shout-outs to my brother :)
   -
@@ -236,7 +236,7 @@
     </match>
   </context>
 
-<!--LAYOUT VARS AND VALUES FOR FUNCTIONS AND PROPERTIES-->
+<!--FUNCTIONS AND BLOCKS WITH FEW VALID VALUES/VARIABLES-->
 
   <context id="accidental-style" style-ref="function">
     <start>\\accidentalStyle(\s|$)</start>
@@ -281,7 +281,7 @@
       <context ref="comment"/>
       <context ref="string"/>
       <context id="repeat-types" style-ref="keyword" end-parent="true">
-        <match>\%{repeats}(?=([^a-z]|$))</match>
+        <match>\%{repeats}(?=([^a-z]|$))|\{</match>
       </context>
     </include>
   </context>
@@ -913,8 +913,8 @@
     <end>\s|$</end>
     <include>
       <context ref="articulation"/>
-      <context ref="dash-caret-underscore-string"/>
       <context ref="chord-modifier"/>
+      <context ref="dash-caret-underscore-string"/>
       <context ref="dynamic"/>
       <context ref="long-articulation"/>
       <context ref="misc-articulation"/>
